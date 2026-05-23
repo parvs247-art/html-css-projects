@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Social links profile</title>
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+
+    }
+
+    .container {
+      background-color: hsl(0, 0%, 12%);
+      display: block;
+      width: 320px;
+      border-radius: 15px;
+      text-align: center;
+      color: hsl(0, 0%, 100%);
+      /* box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); */
+      padding: 30px;
+
+    }
+
+    .profile-img {
+      background-image: url(/assets/images/parv.jpg);
+      height: 90px;
+      width: 90px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto 20px auto;
+     display: block;
+    }
+
+    .parv {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    .location p {
+      font-size: 14px;
+      color: hsl(75, 94%, 57%);
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      color: hsl(0, 0%, 100%);
+      margin-bottom: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: hsl(0, 0%, 100%);
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    button{
+       background-color: hsl(0, 0%, 20%);
+      height: 40px;
+      width: 100%;
+      margin: 18px auto;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+    }
+
+    button:hover {
+      background-color:  hsl(75, 94%, 57%);
+      cursor: pointer;
+    }
+
+    @media(max-width: 375px){
+      .container {
+        width: 90%;
+        padding: 20px;
+      }
+     .parv {
+        font-size: 24px;
+      }
+      p {
+        font-size: 12px;
+      }
+      button {
+        width: 100%;
+    }
+  }
+
+      @media(min-width: 1440px){
+        .container {
+          width: 400px;
+          padding: 40px;
+        }
+      }
+    
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <div class="profile-img"></div>
+      <div class="parv">Parv Shah</div>
+      <div class="location">
+        <p>Banswara, Rajasthan</p>
+      </div>
+      <div>
+        <p>"Full-Stack Developer and cloud enthusiast"</p>
+      </div>
+      <div class="links">
+        <div class="github">
+         <button><a href="https://github.com/parvs247-art">GitHub</a></button>
+        </div>
+        <div class="linkedin">
+          <button><a href="https://www.linkedin.com/in/parv-shah-529a72305/">LinkedIn</a></button>
+        </div>
+        <div class="instagram">
+          <button><a href="https://www.instagram.com/parv_.shah/?hl=en">Instagram</a></button>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
