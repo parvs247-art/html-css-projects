@@ -119,7 +119,7 @@ h1{
     font-size: 28px;
   }
 
-  .ccart-btn :hover{
+  .cart-btn :hover{
     background-color: hsl(159, 61%, 11%);
 }
 }
