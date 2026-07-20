@@ -9,7 +9,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
+.text-container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -18,14 +18,17 @@ body{
     align-items: center;
 }
 
-.container h1{
+.text-container p{
+    text-align: center;
+}
+.text-container h1{
     font-size: 1.5rem;
     margin-bottom: 20px;
     color:hsl(212, 6%, 44%);
     font-weight: 400;
 }
 
-.container h2{
+.text-container h2{
     font-size: 1.5rem;
     margin-bottom: 40px;
     color:hsl(234, 12%, 34%);
@@ -37,3 +40,26 @@ p{
     color:hsl(212, 6%, 44%);
 }
 
+header{
+    margin-top: 40px;
+}
+
+.card{
+     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 30px;
+    padding: 30px;
+}
+
+
+
+.right-card{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    height: 200px;
+    padding: 30px;
+    width: 250px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0 auto;
+}
