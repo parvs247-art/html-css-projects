@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2.5rem 1.5rem;
+}
+
+.testimonial-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 450px;
+    width: 100%;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.profile-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.quote {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+ .card p:last-child {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    line-height: 1.5;
+} 
+
+.card1 {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 25rem .5rem;
+    background-size: 6rem;
+}
+
+.card2 {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.card3 {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card4 {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.card5 {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card1,
+.card2,
+.card4 {
+    color: hsl(0, 0%, 100%);
+}
+
+
+@media (min-width: 1000px) {
+    .testimonial-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "d  d  j k"
+            "je p  p k";
+
+        gap: 1.5rem;
+        max-width: 1100px;
+    }
+
+    .card1 {
+        grid-area: d;
+    }
+
+    .card2 {
+        grid-area: j;
+    }
+
+    .card3 {
+        grid-area: je;
+    }
+
+    .card4 {
+        grid-area: p;
+    }
+
+    .card5 {
+        grid-area: k;
+    }
+}
