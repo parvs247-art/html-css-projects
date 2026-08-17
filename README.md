@@ -7,12 +7,12 @@ Deployed via Vercel.
 Projects
 
 amazon clone                    -->
-blog preview card               -->
-Product Preview Card Component	-->
-Testimonials Grid Section	    -->
-qr code project                 -->
-social links profile            -->
-four card feature section       -->
+blog preview card               --> [https://blog-preview-card-pied-one.vercel.app/]
+Product Preview Card Component	-->[https://product-preview-card-five-omega.vercel.app/]
+Testimonials Grid Section	    -->[https://testimonial-section-one.vercel.app/]
+qr code project                 -->[https://html-css-projects-tp8s.vercel.app/]
+social links profile            -->[https://social-link-profile-red.vercel.app/]
+four card feature section       -->  [https://four-card-feature-section-three-jet.vercel.app/]
 
 
 
